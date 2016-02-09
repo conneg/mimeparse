@@ -8,6 +8,8 @@ See [section 14.1](http://tools.ietf.org/html/rfc2616#section-14.1) of [RFC 2616
 
 ## Contents
 
+| Function/Method | Description |
+| --------------- | ----------- |
 | `parse_mime_type()` | Parses a mime-type into its component parts. |
 | `parse_media_range()` | Media-ranges are mime-types with wild-cards and a 'q' quality parameter. |
 | `quality()` | Determines the quality ('`q`') of a mime-type when compared against a list of media-ranges. |
